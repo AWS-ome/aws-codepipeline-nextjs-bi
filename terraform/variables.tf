@@ -1,4 +1,4 @@
-variable "aws_region" {
+ypairvariable "aws_region" {
   description = "The AWS region to deploy to"
   type        = string
   default     = "eu-central-1"
@@ -49,5 +49,5 @@ variable "availability_zones" {
 variable "pem_key" {
   description = "instance ami"
   type        = string
-  default     = "master"
+  default     = "masterkeypair"
 }
